@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1F4172;
+}
+
+.secao-principal{
+    text-align: center;
+    background-color:#132043 ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.fizz{
+
+    display: flex;
+    align-self:center;
+    font-size: 100px;
+    color: gold;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    text-transform: uppercase;
+
+}
+.buzz{
+
+    display: flex;
+    align-self: end;
+    font-size: 100px;
+    color: chartreuse;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    text-transform: uppercase;
+}
+
+.secao-numeros{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10em;
+}
+
+
+.num1 ,.num2{
+
+    text-align: center;
+    margin: 1em;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+
+.containerPrincipal{
+
+    display: flex;
+}
+.btnContainer{
+
+    width: 11vw;
+    margin: 1em;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: 5px dashed black;
+    color: yellow;
+    background-color: cornflowerblue;
+
+}
+
+#resultado{
+
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 1em;
+
+}
+
+.btnapagar{
+
+    width: 10vw;
+    margin-top: 4em;
+    border-radius: 20px;
+
+}
+.imgLimpar{
+
+    width:3em;
+}
+
+.container-img-fizz{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+
+}
+.img-fizz,.img-buzz{
+    display: none;
+    width:10vw;
+    height: 30vh;
+    border-radius: 20px;
+    margin-left: 1em;
+
+}
+
+.rodape{
+
+    background-color: #132043;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3em;
+
+}
+
+.titulo-rodape{
+
+    text-transform: uppercase;
+    margin: 1em;
+    color: chartreuse;
+}
+
+.container-rodape{
+
+    width: 15vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+@media screen and (max-width:767px){
+
+    .fizz{
+        font-size: 2em;
+        margin: 0 0.5 0 0.5;
+    }
+
+    .buzz{
+        font-size: 2em;
+        margin: 0 0.5 0 0.5;
+    }
+
+    .img-secao-principal{
+
+        width: 40vw;
+        border-radius: 20px;
+
+    }
+    .num1 ,.num2{
+
+        margin: 0.5em;
+    }
+    
+    .secao-numeros{
+        margin-top: 3em;
+    
+    }
+
+    .containerInput{
+        text-align: center;
+    }
+
+
+    .container-rodape{
+
+        width: 80vw;
+    }
+    .rodape{
+        text-align: center;
+    }
+
+    .img-fizz,.img-buzz{
+
+        width:40vw;
+        height: 26vh;
+    }
+}
+
+  @media screen and (min-width:768px) and ( max-width :1439px){
+
+
+    .img-fizz,.img-buzz{
+
+        width:20vw;
+        height: 20vh;
+    }
+    .container-rodape{
+        margin-bottom: 1em;
+        width: 80vw;
+    }
+}
+    
